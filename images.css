@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e60f4b;
+    background-image: url(img/textura.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.main-title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.main-title h1 {
+    color: white;
+}
+
+.prev, .next {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-color: white;
+}
+
+.prev span, .next span {
+    color: white;
+}
+
+.next {
+    padding: 10px 35px 10px 10px;
+    background: url('img/right-button.png') no-repeat 70px center;
+    float: right;
+}
+
+.prev {
+    padding: 10px 10px 10px 35px;
+    background: url('img/back-button.png') no-repeat 5px center;
+}
+
+.img-config {
+    height: 630px;
+    width:  470px;
+    border-radius: 20px;
+    margin-bottom: 15%;
+}
